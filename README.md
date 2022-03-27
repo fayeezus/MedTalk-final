@@ -9,3 +9,4 @@
 - If you have UI Issue. 
 - 
 # Use: Pixel 4 API 31 Level Emulator
+- Since we're using multiple backgrounds, API 27 has issues in the emulator. We need to upgrade to latest version which is API 31.
