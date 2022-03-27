@@ -26,7 +26,7 @@
         <item name="colorOnPrimary">#004780</item>
         <!-- Secondary brand color. -->
 
-        <item name="android:windowBackground">#7AABD3</item>
+        <item name="android:windowBackground">#95B4CE</item>
 
         <item name="colorSecondary">#E91E63</item>
         <item name="colorSecondaryVariant">#9C1140</item>
@@ -45,7 +45,7 @@
         <item name="colorOnPrimary">#FF5722</item>
         <!-- Secondary brand color. -->
 
-        <item name="android:windowBackground">#F5D67B</item>
+        <item name="android:windowBackground">#F1D993</item>
 
         <item name="colorSecondary">#4CAF50</item>
         <item name="colorSecondaryVariant">#009688</item>
