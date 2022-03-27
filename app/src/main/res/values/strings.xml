@@ -40,8 +40,8 @@
     <string name="settings_2_voice4" >Speed:</string>
     <string name="settings_3">Background:</string>
     <string name="settings_3_bg1" translatable="false" >Default Background</string>
-    <string name="settings_3_bg2" translatable="false" >Background #2</string>
-    <string name="settings_3_bg3" translatable="false" >Background #3</string>
+    <string name="settings_3_bg2" translatable="false" >Light Mode</string>
+    <string name="settings_3_bg3" translatable="false" >Dark Mode</string>
     //
     <string name="help">Help</string>
     <string name="help_message">I Need Help</string>
