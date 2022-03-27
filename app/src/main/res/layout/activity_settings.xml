@@ -158,7 +158,6 @@
             android:id="@+id/settings2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
             android:orientation="vertical"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/BackgroundText">
@@ -206,8 +205,8 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="21dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
             android:text="@string/settings_2_voice4"
             android:textColor="#154"
             android:textSize="20sp"
