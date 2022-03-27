@@ -30,7 +30,6 @@ public class TalkActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_talk);
 
         SharedPreferences prefs = getSharedPreferences("SETTINGS", MODE_PRIVATE);
         String themeSaved = prefs.getString("theme", "1");
@@ -44,6 +43,7 @@ public class TalkActivity extends AppCompatActivity {
             setTheme(R.style.Theme_Medtalk3);
         }
 
+        setContentView(R.layout.activity_talk);
         Objects.requireNonNull(getSupportActionBar()).hide();
 
         Button backButton = findViewById(R.id.button_back);
