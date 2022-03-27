@@ -1,0 +1,78 @@
+<resources>
+    // main
+    <string name="need">ज़रूरत</string>
+    <string name="food">खाना</string>
+    <string name="covid">कोविड</string>
+    <string name="time">समय</string>
+    <string name="routine">नियमित चेकलिस्ट</string>
+    <string name="type">कस्टम प्रश्न</string>
+    <string name="pain">दर्द</string>
+    <string name="talk">वाक्यांशों</string>
+
+    // miscellaneous
+    <string name="language">Hindi</string>
+
+    // settings
+    <string name="settings_1">भाषा:</string>
+    <string name="settings_2">आवाज़:</string>
+    <string name="settings_3">पृष्ठभूमि:</string>
+    <string name="settings_2_voice3" >आवाज़:</string>
+    <string name="settings_2_voice4" >स्पीड:</string>
+    //
+    <string name="help">मदद</string>
+    <string name="help_message">मुझे मदद की ज़रूरत है</string>
+    <string name="speak">बोलना</string>
+
+    <string name="time_hour">घंटे</string>
+    <string name="time_day">दिन</string>
+    <string name="time_month">महीने</string>
+    <string name="time_year">वर्षों</string>
+
+    <string name="routine_1">आप कैसा महसूस कर रहे हैं</string>
+    <string name="routine_2">मल त्याग</string>
+    <string name="routine_3">दवा</string>
+    <string name="routine_4">क्या आपको किसी चीज़ की ज़रूरत है</string>
+    <string name="routine_5">आराम का स्तर</string>
+
+    <string name="need_1">शौचालय</string>
+    <string name="need_2">दवा</string>
+    <string name="need_3">टीवी ऑन</string>
+    <string name="need_4">टीवी बंद</string>
+    <string name="need_5">बत्ती जलाओ</string>
+    <string name="need_6">बंद रोशनी</string>
+
+    <string name="pain_1">छाती में दर्द</string>
+    <string name="pain_2">पीठ दर्द</string>
+    <string name="pain_3">सिरदर्द</string>
+    <string name="pain_4">पेट दर्द</string>
+    <string name="pain_5">टूटी हुई हड्डी</string>
+    <string name="pain_6">बुखार</string>
+    <string name="pain_7">सांस लेने में दर्द</string>
+    <string name="pain_8">प्रसव पीड़ा</string>
+
+    <string name="food_1">पानी</string>
+    <string name="food_2">शाकाहारी</string>
+    <string name="food_3">चाय</string>
+    <string name="food_4">हलाल</string>
+    <string name="food_5">कॉफ़ी</string>
+    <string name="food_6">कोषेर</string>
+    <string name="food_7">रस</string>
+    <string name="food_8">फल</string>
+    <string name="food_9">सैंडविच</string>
+    <string name="food_10">सूप</string>
+
+    <string name="talk_1">नमस्ते</string>
+    <string name="talk_2">शुक्रिया</string>
+    <string name="talk_3">चिकित्सक</string>
+    <string name="talk_4">मुक्ति</string>
+    <string name="talk_5">बीमा</string>
+
+    <string name="covid_1">परीक्षण स्थल</string>
+    <string name="covid_2">टीका</string>
+    <string name="covid_3">परिणाम</string>
+    <string name="covid_4">बीमार महसूस करना</string>
+    <string name="body">शरीर</string>
+    <string name="save_settings">सेटिंग्स सेव करें!</string>
+
+
+</resources>

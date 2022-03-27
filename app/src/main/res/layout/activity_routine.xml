@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".RoutineActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/questionaire" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_back"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/backbutton"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_reset"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/resetbutton"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/routine_1_text"
+            android:layout_width="330dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/light_grey"
+            android:gravity="center"
+            android:text="@string/routine_1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/menuLayout"
+            app:layout_constraintTop_toBottomOf="@id/menuLayout"
+            tools:ignore="MissingConstraints" />
+
+        <SeekBar
+            android:id="@+id/routine_1_slide"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:background="@drawable/scale"
+            android:max="4"
+            android:progress="2"
+            android:scrollbars="horizontal"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@+id/routine_1_text"
+            app:layout_constraintTop_toBottomOf="@+id/routine_1_text" />
+
+        <ToggleButton
+            android:id="@+id/routine_2"
+            android:layout_width="330dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/light_grey"
+            android:textOff="@string/routine_2"
+            android:textOn="@string/routine_2"
+            app:layout_constraintStart_toStartOf="@+id/routine_1_text"
+            app:layout_constraintTop_toBottomOf="@+id/routine_1_slide"
+            tools:ignore="TextContrastCheck" />
+
+        <ToggleButton
+            android:id="@+id/routine_3"
+            android:layout_width="330dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/light_grey"
+            android:textOff="@string/routine_3"
+            android:textOn="@string/routine_3"
+            app:layout_constraintStart_toStartOf="@id/routine_2"
+            app:layout_constraintTop_toBottomOf="@+id/routine_2"
+            tools:ignore="MissingConstraints" />
+
+        <ToggleButton
+            android:id="@+id/routine_4"
+            android:layout_width="330dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/light_grey"
+            android:textOff="@string/routine_4"
+            android:textOn="@string/routine_4"
+            app:layout_constraintStart_toStartOf="@+id/routine_3"
+            app:layout_constraintTop_toBottomOf="@+id/routine_3" />
+
+        <TextView
+            android:id="@+id/routine_5_text"
+            android:layout_width="330dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/light_grey"
+            android:gravity="center"
+            android:text="@string/routine_5"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/routine_4"
+            app:layout_constraintTop_toBottomOf="@+id/routine_4" />
+
+        <SeekBar
+            android:id="@+id/routine_5_slide"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:background="@drawable/scale"
+            android:max="4"
+            android:progress="2"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@+id/routine_5_text"
+            app:layout_constraintTop_toBottomOf="@+id/routine_5_text" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

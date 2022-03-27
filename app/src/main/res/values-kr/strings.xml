@@ -1,0 +1,79 @@
+<resources>
+    // main
+    <string name="need">필요</string>
+    <string name="food">음식</string>
+    <string name="covid">코로나</string>
+    <string name="time">시간</string>
+    <string name="routine">일상적인 체크리스트</string>
+    <string name="type">맞춤 질문</string>
+    <string name="pain">통증</string>
+    <string name="talk">실없는 말</string>
+
+    // miscellaneous
+    <string name="language">Korean</string>
+
+    // settings
+    <string name="settings_1">언어:</string>
+    <string name="settings_2">목소리:</string>
+    <string name="settings_3">배경:</string>
+    <string name="settings_2_voice3" >정점:</string>
+    <string name="settings_2_voice4" >속도:</string>
+
+    //
+    <string name="help">돕다</string>
+    <string name="help_message">도움이 필요해</string>
+    <string name="speak">말하다</string>
+
+    <string name="time_hour">시간</string>
+    <string name="time_day">날</string>
+    <string name="time_month">개월</string>
+    <string name="time_year">연령</string>
+
+    <string name="routine_1">기분이 어때?</string>
+    <string name="routine_2">배변</string>
+    <string name="routine_3">약</string>
+    <string name="routine_4">필요한 것있으세요</string>
+    <string name="routine_5">편안함 수준</string>
+
+    <string name="need_1">화장실</string>
+    <string name="need_2">약</string>
+    <string name="need_3">TV 켜기</string>
+    <string name="need_4">TV 끄기</string>
+    <string name="need_5">불을 켜다</string>
+    <string name="need_6">소등</string>
+
+    <string name="pain_1">가슴 통증</string>
+    <string name="pain_2">허리 통증</string>
+    <string name="pain_3">두통</string>
+    <string name="pain_4">복통</string>
+    <string name="pain_5">부러진 뼈</string>
+    <string name="pain_6">발열</string>
+    <string name="pain_7">호흡 통증</string>
+    <string name="pain_8">진통</string>
+
+    <string name="food_1">물</string>
+    <string name="food_2">채식주의자</string>
+    <string name="food_3">차</string>
+    <string name="food_4">할랄</string>
+    <string name="food_5">커피</string>
+    <string name="food_6">적법한</string>
+    <string name="food_7">주스</string>
+    <string name="food_8">과일</string>
+    <string name="food_9">샌드위치</string>
+    <string name="food_10">국</string>
+
+    <string name="talk_1">안녕하세요</string>
+    <string name="talk_2">감사합니다</string>
+    <string name="talk_3">의사</string>
+    <string name="talk_4">해고하다</string>
+    <string name="talk_5">보험</string>
+
+    <string name="covid_1">테스트 사이트</string>
+    <string name="covid_2">백신</string>
+    <string name="covid_3">결과</string>
+    <string name="covid_4">아픈 느낌</string>
+    <string name="body">신체</string>
+    <string name="save_settings">설정 저장!</string>
+
+
+</resources>

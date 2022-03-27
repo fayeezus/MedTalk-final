@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".TalkActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_back"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/backbutton"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_language"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/language"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/phrases" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/custom_buttons"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:id="@+id/button_talk_1"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/talk_1"
+            app:layout_constraintStart_toStartOf="@+id/menuLayout"
+            app:layout_constraintTop_toBottomOf="@id/menuLayout"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/image_doctor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_talk_3"
+            app:layout_constraintHorizontal_bias="0.086"
+            app:layout_constraintStart_toStartOf="@+id/button_talk_3"
+            app:layout_constraintTop_toTopOf="@+id/button_talk_3"
+            app:srcCompat="@drawable/doctor" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/custom_buttons"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:id="@+id/button_talk_2"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/talk_2"
+            app:layout_constraintStart_toStartOf="@+id/button_talk_1"
+            app:layout_constraintTop_toBottomOf="@+id/button_talk_1" />
+
+        <ImageView
+            android:id="@+id/image_hello"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_talk_1"
+            app:layout_constraintHorizontal_bias="0.086"
+            app:layout_constraintStart_toStartOf="@+id/button_talk_1"
+            app:layout_constraintTop_toTopOf="@+id/button_talk_1"
+            app:srcCompat="@drawable/hello" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_talk_3"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/custom_buttons"
+            android:text="@string/talk_3"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_talk_2"
+            app:layout_constraintTop_toBottomOf="@+id/button_talk_2"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="102dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_talk_2"
+            app:layout_constraintHorizontal_bias="0.086"
+            app:layout_constraintStart_toStartOf="@+id/button_talk_2"
+            app:layout_constraintTop_toTopOf="@+id/button_talk_2"
+            app:srcCompat="@drawable/thank_you" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/custom_buttons"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:id="@+id/button_talk_4"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/talk_4"
+            app:layout_constraintStart_toStartOf="@+id/button_talk_3"
+            app:layout_constraintTop_toBottomOf="@+id/button_talk_3" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_talk_5"
+            app:layout_constraintHorizontal_bias="0.091"
+            app:layout_constraintStart_toStartOf="@+id/button_talk_5"
+            app:layout_constraintTop_toTopOf="@+id/button_talk_5"
+            app:srcCompat="@drawable/insurance_card_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_talk_4"
+            app:layout_constraintHorizontal_bias="0.086"
+            app:layout_constraintStart_toStartOf="@+id/button_talk_4"
+            app:layout_constraintTop_toTopOf="@+id/button_talk_4"
+            app:srcCompat="@drawable/discharge" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/custom_buttons"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:id="@+id/button_talk_5"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/talk_5"
+            app:layout_constraintStart_toStartOf="@+id/button_talk_4"
+            app:layout_constraintTop_toBottomOf="@+id/button_talk_4" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_talk_6"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:text="@string/button_6"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/button_talk_5"
+            app:layout_constraintTop_toBottomOf="@id/button_talk_5"
+            tools:visibility="gone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

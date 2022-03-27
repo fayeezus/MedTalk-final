@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".CovidActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_back"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/backbutton"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_language"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/language"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/covid" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/image_testsite"
+            android:layout_width="108dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_covid_1"
+            app:layout_constraintHorizontal_bias="0.063"
+            app:layout_constraintStart_toStartOf="@+id/button_covid_1"
+            app:layout_constraintTop_toTopOf="@+id/button_covid_1"
+            app:srcCompat="@drawable/covidtest" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_covid_1"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:text="@string/covid_1"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/menuLayout"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/image_vaccine"
+            android:layout_width="110dp"
+            android:layout_height="104dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_covid_2"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="@+id/button_covid_2"
+            app:layout_constraintTop_toTopOf="@+id/button_covid_2"
+            app:srcCompat="@drawable/vaccine_removebg_preview" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_covid_2"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:text="@string/covid_2"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_covid_1"
+            app:layout_constraintTop_toBottomOf="@id/button_covid_1" />
+
+        <ImageView
+            android:id="@+id/image_results"
+            android:layout_width="102dp"
+            android:layout_height="97dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_covid_3"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="@+id/button_covid_3"
+            app:layout_constraintTop_toTopOf="@+id/button_covid_3"
+            app:srcCompat="@drawable/results_removebg_preview" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_covid_3"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_buttons"
+            android:layout_marginTop="25dp"
+            android:text="@string/covid_3"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/button_covid_2"
+            app:layout_constraintTop_toBottomOf="@+id/button_covid_2"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/image_sick"
+            android:layout_width="107dp"
+            android:layout_height="89dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_covid_4"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toStartOf="@+id/button_covid_4"
+            app:layout_constraintTop_toTopOf="@+id/button_covid_4"
+            app:srcCompat="@drawable/sick" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_covid_4"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:text="@string/covid_4"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_covid_3"
+            app:layout_constraintTop_toBottomOf="@id/button_covid_3"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".NeedActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_back"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/backbutton"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_language"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/language"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/needs" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need_1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/need_1"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/menuLayout"
+            app:layout_constraintTop_toBottomOf="@+id/menuLayout"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/image_toilet"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_need_1"
+            app:layout_constraintStart_toStartOf="@+id/button_need_1"
+            app:layout_constraintTop_toTopOf="@+id/button_need_1"
+            app:srcCompat="@drawable/toilet" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need_2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/need_2"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@id/button_need_1"
+            app:layout_constraintTop_toTopOf="@id/button_need_1" />
+
+        <ImageView
+            android:id="@+id/image_medicine"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_need_2"
+            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintStart_toStartOf="@+id/button_need_2"
+            app:layout_constraintTop_toTopOf="@+id/button_need_2"
+            app:srcCompat="@drawable/medicine" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need_3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/need_3"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/button_need_1"
+            app:layout_constraintTop_toBottomOf="@id/button_need_1" />
+
+        <ImageView
+            android:id="@+id/image_tvon"
+            android:layout_width="149dp"
+            android:layout_height="148dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_need_3"
+            app:layout_constraintStart_toStartOf="@+id/button_need_3"
+            app:layout_constraintTop_toTopOf="@+id/button_need_3"
+            app:srcCompat="@drawable/tv_on" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need_4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/need_4"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_need_2"
+            app:layout_constraintTop_toTopOf="@id/button_need_3" />
+
+        <ImageView
+            android:id="@+id/image_lightson"
+            android:layout_width="145dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_need_5"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/button_need_5"
+            app:layout_constraintTop_toTopOf="@+id/button_need_5"
+            app:srcCompat="@drawable/light_on" />
+
+        <ImageView
+            android:id="@+id/image_tvoff"
+            android:layout_width="148dp"
+            android:layout_height="128dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_need_4"
+            app:layout_constraintStart_toStartOf="@+id/button_need_4"
+            app:layout_constraintTop_toTopOf="@+id/button_need_4"
+            app:srcCompat="@drawable/tv_off" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need_5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/need_5"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_need_3"
+            app:layout_constraintTop_toBottomOf="@id/button_need_3"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/image_lightsoff"
+            android:layout_width="145dp"
+            android:layout_height="125dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_need_6"
+            app:layout_constraintStart_toStartOf="@+id/button_need_6"
+            app:layout_constraintTop_toTopOf="@+id/button_need_6"
+            app:srcCompat="@drawable/light_off" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need_6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/need_6"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_need_4"
+            app:layout_constraintTop_toTopOf="@id/button_need_5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need_7"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/button_7"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/button_need_5"
+            app:layout_constraintTop_toBottomOf="@id/button_need_5"
+            tools:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need_8"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/button_8"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/button_need_6"
+            app:layout_constraintTop_toTopOf="@id/button_need_7"
+            tools:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need_9"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/button_9"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/button_need_7"
+            app:layout_constraintTop_toBottomOf="@id/button_need_7"
+            tools:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need_10"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/button_10"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@id/button_need_8"
+            app:layout_constraintTop_toTopOf="@id/button_need_9"
+            tools:ignore="MissingConstraints"
+            tools:visibility="gone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

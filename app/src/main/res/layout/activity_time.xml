@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".TimeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_back"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/backbutton"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_language"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/language"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="200dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/time" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <EditText
+            android:id="@+id/number_input_time"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_buttons"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="96sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/menuLayout" />
+
+        <ImageView
+            android:id="@+id/image_day"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_time_day"
+            app:layout_constraintStart_toStartOf="@+id/button_time_day"
+            app:layout_constraintTop_toTopOf="@+id/button_time_day"
+            app:srcCompat="@drawable/day" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:id="@+id/button_time_hour"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/custom_buttons"
+            android:text="@string/time_hour"
+            app:layout_constraintStart_toStartOf="@+id/menuLayout"
+            app:layout_constraintTop_toBottomOf="@+id/number_input_time" />
+
+        <ImageView
+            android:id="@+id/image_hour"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_time_hour"
+            app:layout_constraintStart_toStartOf="@+id/button_time_hour"
+            app:layout_constraintTop_toTopOf="@+id/button_time_hour"
+            app:srcCompat="@drawable/hour" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:id="@+id/button_time_day"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/custom_buttons"
+            android:text="@string/time_day"
+            app:layout_constraintStart_toEndOf="@+id/button_time_hour"
+            app:layout_constraintTop_toTopOf="@+id/button_time_hour" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_time_month"
+            app:layout_constraintStart_toStartOf="@+id/button_time_month"
+            app:layout_constraintTop_toTopOf="@+id/button_time_month"
+            app:srcCompat="@drawable/month" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:id="@+id/button_time_month"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:text="@string/time_month"
+            app:layout_constraintStart_toStartOf="@id/button_time_hour"
+            app:layout_constraintTop_toBottomOf="@id/button_time_hour" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_time_year"
+            app:layout_constraintStart_toStartOf="@+id/button_time_year"
+            app:layout_constraintTop_toTopOf="@+id/button_time_year"
+            app:srcCompat="@drawable/year" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:id="@+id/button_time_year"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/custom_buttons"
+            android:text="@string/time_year"
+            app:layout_constraintStart_toStartOf="@id/button_time_day"
+            app:layout_constraintTop_toTopOf="@id/button_time_month" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

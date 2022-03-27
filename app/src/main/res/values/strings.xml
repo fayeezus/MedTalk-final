@@ -1,0 +1,102 @@
+<resources>
+    // main
+    <string name="app_name" translatable="false">Medtalk</string>
+    <string name="need">Needs</string>
+    <string name="food">Food</string>
+    <string name="covid">Covid</string>
+    <string name="time">Time</string>
+    <string name="routine">Routine Checklist</string>
+    <string name="type">Custom Questions</string>
+    <string name="pain">Pain</string>
+    <string name="talk">Phrases</string>
+
+    // temp
+    <string name="button_3" translatable="false">Button 3</string>
+    <string name="button_4" translatable="false">Button 4</string>
+    <string name="button_5" translatable="false">Button 5</string>
+    <string name="button_6" translatable="false">Button 6</string>
+    <string name="button_7" translatable="false">Button 7</string>
+    <string name="button_8" translatable="false">Button 8</string>
+    <string name="button_9" translatable="false">Button 9</string>
+    <string name="button_10" translatable="false">Button 10</string>
+
+    // miscellaneous
+    <string name="language">English</string>
+    <string name="backbutton" translatable="false"><![CDATA[<]]></string>
+    <string name="resetbutton" translatable="false">Reset</string>
+
+    // settings
+    <string name="settings" translatable="false">Settings</string>
+    <string name="settings_1">Language:</string>
+    <string name="settings_1_lang1" translatable="false"> English(US)</string>
+    <string name="settings_1_lang2" translatable="false"> Chinese</string>
+    <string name="settings_1_lang3" translatable="false"> Korean</string>
+    <string name="settings_1_lang4" translatable="false"> Arabic</string>
+    <string name="settings_1_lang5" translatable="false"> Hindi</string>
+    <string name="settings_2">Voice:</string>
+    <string name="settings_2_voice1" translatable="false" >Male</string>
+    <string name="settings_2_voice2" translatable="false" >Female</string>
+    <string name="settings_2_voice3" >Pitch:</string>
+    <string name="settings_2_voice4" >Speed:</string>
+    <string name="settings_3">Background:</string>
+    <string name="settings_3_bg1" translatable="false" >Default Background</string>
+    <string name="settings_3_bg2" translatable="false" >Background #2</string>
+    <string name="settings_3_bg3" translatable="false" >Background #3</string>
+    //
+    <string name="help">Help</string>
+    <string name="help_message">I Need Help</string>
+    <string name="speak">Speak</string>
+
+    <string name="time_hour">Hours</string>
+    <string name="time_day">Days</string>
+    <string name="time_month">Months</string>
+    <string name="time_year">Years</string>
+
+    <string name="routine_1">How are you feeling</string>
+    <string name="routine_2">Bowel movement</string>
+    <string name="routine_3">Medicine</string>
+    <string name="routine_4">Do you need any thing</string>
+    <string name="routine_5">Comfort level</string>
+
+    <string name="need_1">Toilet</string>
+    <string name="need_2">Medicine</string>
+    <string name="need_3">TV On</string>
+    <string name="need_4">TV Off</string>
+    <string name="need_5">Lights On</string>
+    <string name="need_6">Lights Off</string>
+
+    <string name="pain_1">Chest Pain</string>
+    <string name="pain_2">Back Pain</string>
+    <string name="pain_3">Headache</string>
+    <string name="pain_4">Stomach Pain</string>
+    <string name="pain_5">Broken Bone</string>
+    <string name="pain_6">Fever</string>
+    <string name="pain_7">Breathing Pain</string>
+    <string name="pain_8">Labor Pain</string>
+
+    <string name="food_1">Water</string>
+    <string name="food_2">Vegetarian</string>
+    <string name="food_3">Tea</string>
+    <string name="food_4">Halal</string>
+    <string name="food_5">Coffee</string>
+    <string name="food_6">Kosher</string>
+    <string name="food_7">Juice</string>
+    <string name="food_8">Fruit</string>
+    <string name="food_9">Sandwich</string>
+    <string name="food_10">Soup</string>
+
+    <string name="talk_1">Hello</string>
+    <string name="talk_2">Thank you</string>
+    <string name="talk_3">Doctor</string>
+    <string name="talk_4">Discharge</string>
+    <string name="talk_5">Insurance</string>
+
+    <string name="covid_1">Test Sites</string>
+    <string name="covid_2">Vaccine</string>
+    <string name="covid_3">Results</string>
+    <string name="covid_4">Feeling Sick</string>
+    <string name="body">Body</string>
+    <string name="save_settings">Save Settings!</string>
+
+
+</resources>

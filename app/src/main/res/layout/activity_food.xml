@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".FoodActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_back"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/backbutton"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_language"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/language"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="40dp"
+                android:textAllCaps="false"
+                android:textSize="34sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/food" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/image_water"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_food_1"
+            app:layout_constraintStart_toStartOf="@+id/button_food_1"
+            app:layout_constraintTop_toTopOf="@+id/button_food_1"
+            app:srcCompat="@drawable/water" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food_1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food_1"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/menuLayout"
+            app:layout_constraintTop_toBottomOf="@+id/menuLayout" />
+
+        <ImageView
+            android:id="@+id/image_vegetarian"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_food_2"
+            app:layout_constraintStart_toStartOf="@+id/button_food_2"
+            app:layout_constraintTop_toTopOf="@+id/button_food_2"
+            app:srcCompat="@drawable/vegetarian" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food_2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food_2"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@id/button_food_1"
+            app:layout_constraintTop_toTopOf="@id/button_food_1" />
+
+        <ImageView
+            android:id="@+id/image_tea"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_food_1"
+            app:layout_constraintStart_toStartOf="@+id/button_food_3"
+            app:layout_constraintTop_toTopOf="@+id/button_food_3"
+            app:srcCompat="@drawable/tea" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food_3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food_3"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/button_food_1"
+            app:layout_constraintTop_toBottomOf="@id/button_food_1" />
+
+        <ImageView
+            android:id="@+id/image_halal"
+            android:layout_width="123dp"
+            android:layout_height="130dp"
+            app:layout_constraintBottom_toBottomOf="@+id/button_food_4"
+            app:layout_constraintEnd_toEndOf="@+id/button_food_4"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="@+id/button_food_4"
+            app:layout_constraintTop_toTopOf="@+id/button_food_4"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/halal_removebg_preview" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food_4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food_4"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_food_2"
+            app:layout_constraintTop_toTopOf="@id/button_food_3" />
+
+        <ImageView
+            android:id="@+id/image_coffee"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/button_food_5"
+            app:layout_constraintTop_toBottomOf="@+id/image_tea"
+            app:srcCompat="@drawable/coffee" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food_5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food_5"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_food_3"
+            app:layout_constraintTop_toBottomOf="@id/button_food_3" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food_6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food_6"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_food_4"
+            app:layout_constraintTop_toTopOf="@id/button_food_5" />
+
+        <ImageView
+            android:id="@+id/image_juice"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_food_7"
+            app:layout_constraintStart_toStartOf="@+id/button_food_7"
+            app:layout_constraintTop_toTopOf="@+id/button_food_7"
+            app:srcCompat="@drawable/juice" />
+
+        <ImageView
+            android:id="@+id/image_sandwich"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_food_9"
+            app:layout_constraintStart_toStartOf="@+id/button_food_9"
+            app:layout_constraintTop_toTopOf="@+id/button_food_9"
+            app:srcCompat="@drawable/sandwich" />
+
+        <ImageView
+            android:id="@+id/image_kosher"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_food_6"
+            app:layout_constraintStart_toStartOf="@+id/button_food_6"
+            app:layout_constraintTop_toTopOf="@+id/button_food_6"
+            app:srcCompat="@drawable/kosher" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food_7"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food_7"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_food_5"
+            app:layout_constraintTop_toBottomOf="@id/button_food_5" />
+
+        <ImageView
+            android:id="@+id/image_fruit"
+            android:layout_width="150dp"
+            android:layout_height="119dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_food_8"
+            app:layout_constraintStart_toStartOf="@+id/button_food_8"
+            app:layout_constraintTop_toTopOf="@+id/button_food_8"
+            app:srcCompat="@drawable/fruit" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food_8"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food_8"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_food_6"
+            app:layout_constraintTop_toTopOf="@id/button_food_7" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_food_10"
+            app:layout_constraintStart_toStartOf="@+id/button_food_10"
+            app:layout_constraintTop_toTopOf="@+id/button_food_10"
+            app:srcCompat="@drawable/soup" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food_9"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food_9"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_food_7"
+            app:layout_constraintTop_toBottomOf="@id/button_food_7" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food_10"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food_10"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@id/button_food_8"
+            app:layout_constraintTop_toTopOf="@id/button_food_9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

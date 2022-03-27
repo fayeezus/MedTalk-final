@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/image_setting"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button_setting"
+                app:layout_constraintEnd_toEndOf="@+id/button_setting"
+                app:layout_constraintStart_toStartOf="@+id/button_setting"
+                app:layout_constraintTop_toTopOf="@+id/button_setting"
+                app:srcCompat="@drawable/setting" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_setting"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:contentDescription="@string/resetbutton"
+                android:textSize="34sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_language"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/custom_buttons"
+                android:text="@string/language"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/image_food"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_food"
+            app:layout_constraintStart_toStartOf="@+id/button_food"
+            app:layout_constraintTop_toTopOf="@+id/button_food"
+            app:srcCompat="@drawable/food" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_food"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/food"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/button_save"
+            app:layout_constraintTop_toBottomOf="@+id/menuLayout" />
+
+        <ImageView
+            android:id="@+id/image_need"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@id/button_need"
+            app:layout_constraintStart_toStartOf="@id/button_need"
+            app:layout_constraintTop_toTopOf="@id/button_need"
+            app:srcCompat="@drawable/needs" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_need"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/need"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/button_food"
+            app:layout_constraintTop_toTopOf="@+id/button_food" />
+
+        <ImageView
+            android:id="@+id/image_alert"
+            android:layout_width="72dp"
+            android:layout_height="78dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/button_save"
+            app:layout_constraintEnd_toEndOf="@+id/button_save"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/button_save"
+            app:layout_constraintTop_toTopOf="@+id/button_save"
+            app:layout_constraintVertical_bias="0.555"
+            app:srcCompat="@drawable/alert" />
+
+        <ImageView
+            android:id="@+id/image_alert2"
+            android:layout_width="72dp"
+            android:layout_height="78dp"
+            app:layout_constraintBottom_toBottomOf="@+id/button_save"
+            app:layout_constraintEnd_toEndOf="@+id/button_save"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/button_save"
+            app:layout_constraintTop_toTopOf="@+id/button_save"
+            app:layout_constraintVertical_bias="0.555"
+            app:srcCompat="@drawable/alert" />
+
+        <ImageView
+            android:id="@+id/image_pain"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_pain"
+            app:layout_constraintStart_toStartOf="@+id/button_pain"
+            app:layout_constraintTop_toTopOf="@+id/button_pain"
+            app:srcCompat="@drawable/realpain" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_pain"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/pain"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/button_save"
+            app:layout_constraintTop_toBottomOf="@+id/button_save" />
+
+        <ImageView
+            android:id="@+id/image_talk"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@id/button_talk"
+            app:layout_constraintStart_toStartOf="@id/button_talk"
+            app:layout_constraintTop_toTopOf="@id/button_talk"
+            app:srcCompat="@drawable/phrases" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_talk"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/talk"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/button_pain"
+            app:layout_constraintTop_toTopOf="@+id/button_pain" />
+
+        <ImageView
+            android:id="@+id/image_routine"
+            android:layout_width="105dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_routine"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="@+id/button_routine"
+            app:layout_constraintTop_toTopOf="@+id/button_routine"
+            app:srcCompat="@drawable/questionaire" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_routine"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/routine"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/button_pain"
+            app:layout_constraintTop_toBottomOf="@+id/button_pain" />
+
+        <ImageView
+            android:id="@+id/image_covid"
+            android:layout_width="151dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="@+id/button_covid"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/button_covid"
+            app:layout_constraintTop_toTopOf="@+id/button_covid"
+            app:srcCompat="@drawable/covid" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_covid"
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/covid"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/button_routine"
+            app:layout_constraintTop_toTopOf="@+id/button_routine" />
+
+        <ImageView
+            android:id="@+id/image_customq"
+            android:layout_width="96dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/button_type"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="@+id/button_type"
+            app:layout_constraintTop_toTopOf="@+id/button_type"
+            app:srcCompat="@drawable/pen"
+            tools:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_type"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:elegantTextHeight="true"
+            android:gravity="bottom|center"
+            android:text="@string/type"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/button_routine"
+            app:layout_constraintTop_toBottomOf="@+id/button_routine"
+            tools:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_save"
+            android:layout_width="330dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_buttons"
+            android:backgroundTint="#D2FF0000"
+            android:contentDescription="@string/help"
+            android:text="HELP!"
+            android:textColor="#FFFFFF"
+            android:textSize="70sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_food" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
