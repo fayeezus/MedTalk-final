@@ -48,8 +48,6 @@
                 android:layout_height="55dp"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/custom_buttons"
-                android:backgroundTint="#D2259C1D"
-                android:backgroundTintMode="src_in"
                 android:contentDescription="@string/save_settings"
                 android:text="@string/save_settings"
                 android:textColor="#000000"
@@ -98,7 +96,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="16dp"
             android:orientation="vertical"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/LanguageText">

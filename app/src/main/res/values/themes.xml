@@ -4,7 +4,7 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/background</item>
         <item name="colorPrimaryVariant">@color/background_night</item>
-        <item name="colorOnPrimary">@color/trim</item>
+        <item name="colorOnPrimary">#000000</item>
         <!-- Secondary brand color. -->
 
 
@@ -20,9 +20,9 @@
     </style>
 
     <style name="Theme.Medtalk2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
+        <!-- Primary brand color. -->s
         <item name="colorPrimary">#66BBFF</item>
-        <item name="colorPrimaryVariant">#2196F3</item>
+        <item name="colorPrimaryVariant">@color/background_night</item>
         <item name="colorOnPrimary">#004780</item>
         <!-- Secondary brand color. -->
 
@@ -42,13 +42,13 @@
     <style name="Theme.Medtalk3" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#000000</item>
-        <item name="colorPrimaryVariant">#FF9800</item>
+        <item name="colorPrimaryVariant">@color/background_night</item>
         <item name="colorOnPrimary">#FF5722</item>
         <!-- Secondary brand color. -->
 
-        <item name="android:windowBackground">#52DDDDDD</item>
+        <item name="android:windowBackground">#8ADDDDDD</item>
 
-        <item name="colorSecondary">#4CAF50</item>
+        <item name="colorSecondary">#E91E63</item>
         <item name="colorSecondaryVariant">#ACF0E9</item>
         <item name="colorOnSecondary">@color/light_grey</item>
         <!-- Status bar color. -->

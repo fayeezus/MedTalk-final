@@ -73,6 +73,16 @@
     <string name="covid_4">बीमार महसूस करना</string>
     <string name="body">शरीर</string>
     <string name="save_settings">सेटिंग्स सेव करें!</string>
+    <string name="mainHelp_Page">मदद</string>
+
+    <string name="settings_1_lang1">अंग्रेज़ी(US)</string>
+    <string name="settings_1_lang2"> चीनी</string>
+    <string name="settings_1_lang3"> कोरियाई</string>
+    <string name="settings_1_lang4"> अरबी</string>
+    <string name="settings_1_lang5"> हिन्दी</string>
+    <string name="settings_3_bg1"  >डिफ़ॉल्ट पृष्ठभूमि</string>
+    <string name="settings_3_bg2"  >लाइट मोड</string>
+    <string name="settings_3_bg3"  >डार्क मोड</string>
 
 
 </resources>

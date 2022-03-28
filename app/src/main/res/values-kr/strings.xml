@@ -74,6 +74,16 @@
     <string name="covid_4">아픈 느낌</string>
     <string name="body">신체</string>
     <string name="save_settings">설정 저장!</string>
+    <string name="mainHelp_Page">돕다</string>
+
+    <string name="settings_1_lang1">영어(US)</string>
+    <string name="settings_1_lang2"> 중국인</string>
+    <string name="settings_1_lang3"> 한국어</string>
+    <string name="settings_1_lang4"> 아라비아 말</string>
+    <string name="settings_1_lang5"> 힌디 어</string>
+    <string name="settings_3_bg1"  >기본 배경</string>
+    <string name="settings_3_bg2"  >라이트 모드</string>
+    <string name="settings_3_bg3"  >다크 모드</string>
 
 
 </resources>

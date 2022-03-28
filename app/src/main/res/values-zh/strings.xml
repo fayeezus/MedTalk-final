@@ -61,4 +61,14 @@
     <string name="save_settings">保存设置！</string>
     <string name="settings_2_voice3" >沥青:</string>
     <string name="settings_2_voice4" >速度:</string>
+    <string name="mainHelp_Page">帮助</string>
+
+    <string name="settings_1_lang1">英语(US)</string>
+    <string name="settings_1_lang2"> 中国人</string>
+    <string name="settings_1_lang3"> 韩国人</string>
+    <string name="settings_1_lang4"> 阿拉伯</string>
+    <string name="settings_1_lang5"> 印地语</string>
+    <string name="settings_3_bg1"  >默认背景</string>
+    <string name="settings_3_bg2"  >灯光模式</string>
+    <string name="settings_3_bg3"  >深色模式</string>
 </resources>

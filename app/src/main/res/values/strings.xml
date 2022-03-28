@@ -28,20 +28,20 @@
     // settings
     <string name="settings" translatable="false">Settings</string>
     <string name="settings_1">Language:</string>
-    <string name="settings_1_lang1" translatable="false"> English(US)</string>
-    <string name="settings_1_lang2" translatable="false"> Chinese</string>
-    <string name="settings_1_lang3" translatable="false"> Korean</string>
-    <string name="settings_1_lang4" translatable="false"> Arabic</string>
-    <string name="settings_1_lang5" translatable="false"> Hindi</string>
+    <string name="settings_1_lang1">English(US)</string>
+    <string name="settings_1_lang2"> Chinese</string>
+    <string name="settings_1_lang3"> Korean</string>
+    <string name="settings_1_lang4"> Arabic</string>
+    <string name="settings_1_lang5"> Hindi</string>
     <string name="settings_2">Voice:</string>
     <string name="settings_2_voice1" translatable="false" >Male</string>
     <string name="settings_2_voice2" translatable="false" >Female</string>
     <string name="settings_2_voice3" >Pitch:</string>
     <string name="settings_2_voice4" >Speed:</string>
     <string name="settings_3">Background:</string>
-    <string name="settings_3_bg1" translatable="false" >Default Background</string>
-    <string name="settings_3_bg2" translatable="false" >Light Mode</string>
-    <string name="settings_3_bg3" translatable="false" >Dark Mode</string>
+    <string name="settings_3_bg1"  >Default Background</string>
+    <string name="settings_3_bg2"  >Light Mode</string>
+    <string name="settings_3_bg3"  >Dark Mode</string>
     //
     <string name="help">Help</string>
     <string name="help_message">I Need Help</string>
@@ -97,6 +97,7 @@
     <string name="covid_4">Feeling Sick</string>
     <string name="body">Body</string>
     <string name="save_settings">Save Settings!</string>
+    <string name="mainHelp_Page">HELP</string>
 
 
 </resources>
