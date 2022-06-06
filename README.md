@@ -29,3 +29,10 @@ MEDtalk is a picture-based tool that allows for seamless communication between h
 
 **Common Page Page:** ![image](https://user-images.githubusercontent.com/29441031/172259292-2043569c-f2a4-4480-9861-a97ac73a064f.png)
 
+**Text-to-Speech Integration:** https://drive.google.com/file/d/1uJmdcv1atCyUaR08B1eKiQHZQUH3DydS/view?resourcekey
+
+**Language Demonstration:** https://drive.google.com/file/d/19nc9ilPVJirlCUL8nh0b9rSvuzfC65AV/view?resourcekey
+
+**Pain Page Demonstration:** https://drive.google.com/file/d/1tK7diaFUBJxAvsIrPcmXijsUbkMGSB9X/view?resourcekey
+
+
