@@ -21,7 +21,7 @@ MEDtalk is a picture-based tool that allows for seamless communication between h
 
 **Final Video:** https://youtu.be/896z71lkv2A
 
-**Overall UI Design:**
+## Overall UI Design:
 
 **Main Page:**![image](https://user-images.githubusercontent.com/29441031/172259099-fa00a09a-2022-4de7-b89a-d5efa8a51dfa.png)
 
