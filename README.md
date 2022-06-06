@@ -1,8 +1,11 @@
 # MedTalk - A Senior Design Project 
 
 ## Team Members:
+
 Faez Farhad (Computer Engineering)
+
 Md Sakil Khan (Computer Engineering)
+
 Progga Chowdhury (Computer Engineering)
 
 ## Description
